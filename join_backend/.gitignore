@@ -1,13 +1,16 @@
-# Django
-*.pyc
+# 🐍 Python
 __pycache__/
+*.pyc
+*.pyo
+
+# 📦 Virtual Environment
+env/
+
+# 🧮 SQLite-Datenbank
 db.sqlite3
-.env
+
+# 💡 IDE & System
+.vscode/
+.DS_Store
 *.log
 
-# Virtual Environment
-env/
-venv/
-
-# VSCode
-.vscode/
